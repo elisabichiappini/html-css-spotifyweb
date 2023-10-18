@@ -5,26 +5,70 @@ Debug--------------------------------------------
 */
 
 /* MAIN*/
+/* col-nav */
 .debug .col-nav {
     background-color: rgb(237, 98, 183);
     border: 1px dashed black;
 }
 
+.debug .logo {
+    background-color: rgb(177, 72, 107);
+    border: 1px dashed white;
+}
+
+.debug .menu {
+    background-color: rgb(184, 96, 125);
+    border: 1px dashed white;
+}
+
+.debug .playlist {
+    background-color: pink;
+    border: 1px dashed white;
+}
+
+.debug .account {
+    background-color: rgb(154, 15, 112);
+    border: 1px dashed white;
+}
+/* /col-nav */
+
+/* col-music */
 .debug .col-music {
     background-color: rgb(63, 117, 233);
     border: 1px dashed black;
 }
 
-.debug .logo {
-    background-color: palevioletred;
+.debug .upgrade {
+    background-color: rgb(43, 170, 239);
     border: 1px dashed white;
 }
+
+.debug .music-box {
+    background-color: rgb(81, 106, 219);
+    border: 1px dashed white;
+}
+/* col-music */
 /* /MAIN*/
 
 /* FOOTER*/
 .debug footer {
-    background-color: rgb(67, 177, 45);
-    border: 1px dashed white;
+    background-color: rgb(175, 236, 163);
+    border: 1px dashed black;
     height: 90px;
+}
+
+.debug .track {
+    background-color: rgb(123, 214, 124);
+    border: 1px dashed white;
+}
+
+.debug .audio-system {
+    background-color: rgb(51, 172, 40);
+    border: 1px dashed white;
+}
+
+.debug .volume {
+    background-color: rgb(18, 100, 18);
+    border: 1px dashed white;
 }
 /* /FOOTER*/

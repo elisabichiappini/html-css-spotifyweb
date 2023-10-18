@@ -66,7 +66,17 @@ footer {
     flex-shrink: 0;
 }
 
-
 .col-music {
     flex-grow: 1;
+}
+
+.from-md {
+    display: none;
+}
+
+.from-s {
+    display: none;
+}
+.only-xs {
+    display: block;
 }

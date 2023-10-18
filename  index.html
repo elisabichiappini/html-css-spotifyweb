@@ -17,22 +17,35 @@
     <!--/ Collegamento File Css-->
 </head>
 <body class="debug">
-    <main class="container flex">
-        <nav class="col-nav"> col-nav
-            <div class="logo">logo</div>
-            <div class="menu">menu</div>
-            <div class="playlist">playlist</div>
-            <div class="account">account</div>
+    <!--Web-app top-->
+    <main class="container flex-row">
+        <nav class="col-nav flex-column space-btw">
+            <div class="nav-top">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logotipo" class="image from-s">
+                    <img src="img/logo-small.svg" alt="logo" class="image only-xs">
+
+                </div>
+                <div class="menu">menu - elenco</div>
+                <div class="playlist from-md">playlist - elenco</div>
+            </div>
+            <div class="nav-bottom">
+                <div class="account">account - img + nome</div>
+            </div>
         </nav>
-        <div class="col-music"> col-music
-            <div class="upgrade">upgrade</div>
-            <div class="music-box">music</div>
-        </div>        
+        <div class="col-music">
+            <div class="upgrade">upgrade - bottone</div>
+            <div class="music-box">music - griglia</div>
+        </div>      
     </main>
-    <footer class="container flex">
-        <div class="track">brano</div>
-        <div class="audio-system">sistema audio</div>
+    <!--/Web-app top-->
+
+    <!--Web-app bottom-->
+    <footer class="container flex-row space-btw">
+        <div class="track">brano - img + titolo + icone </div>
+        <div class="audio-system">sistema audio - top + bottom</div>
         <div class="volume">volume</div>
     </footer>
+    <!--Web-app bottom-->
 </body>
 </html>

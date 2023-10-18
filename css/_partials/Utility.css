@@ -4,20 +4,25 @@ Utility-------------------------------------------
 -------------------------------------------------
 */
 
-.flex {
-    display: flex;
-}
-
 .image {
     width: 100%;
     display: block;
 }
 
-.space-btw {
-    justify-content: space-between;
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
 
 .align-center {
     align-items: center;
 }
 
+.space-btw {
+    justify-content: space-between;
+}

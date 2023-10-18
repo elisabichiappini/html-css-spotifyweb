@@ -1,0 +1,21 @@
+/*
+-------------------------------------------------
+Debug--------------------------------------------
+-------------------------------------------------
+*/
+
+.debug footer {
+    background-color: rgb(57, 134, 108);
+    border: 1px dashed white;
+    height: 90px;
+}
+
+.debug .col-nav {
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.debug .col-music {
+    background-color: aqua;
+    border: 1px dashed black;
+}

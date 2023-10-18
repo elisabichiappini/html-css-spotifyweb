@@ -1,7 +1,7 @@
 # Spotify Web
 
 Rappresentazione come da screenshot della struttura Spotify, web app in modalità responsive. 
-Le 5 versioni di layout hanno come riferimento le classi breakpoints di default: 
+Le 4 versioni di layout hanno come riferimento le classi breakpoints di default: 
 
 - Extra small           (xs)    - 576px;
 - Small                 (sm)    += 576px;

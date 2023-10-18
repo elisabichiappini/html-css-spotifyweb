@@ -4,21 +4,27 @@ Import-------------------------------------------
 -------------------------------------------------
 */
 
+/* Importazione common */
 @import '_partials/common.css';
+/* /Importazione common */
+/* Importazione reset */
 @import '_partials/reset.css';
+/* /Importazione reset */
+/* Importazione typography */
 @import '_partials/typography.css';
+/* /Importazione typography */
+/* Importazione utility */
 @import '_partials/Utility.css';
+/* /Importazione utility */
+/* Importazione variables */
+@import '_partials/variables.css';
+/* /Importazione variables */
+/* Importazione responsive */
 @import '_partials/responsive.css';
-
-
-
+/* /Importazione responsive */
 
 /*
 -------------------------------------------------
 Stile Css----------------------------------------
 -------------------------------------------------
 */
-
-body {
-    background-color: blue;
-}

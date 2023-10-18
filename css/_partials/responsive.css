@@ -6,17 +6,16 @@ Responsive---------------------------------------
 
 @media screen and (min-width: 576px) {
 
-    .container {
-        width: 100%;
-    }
- 
-
     main .col-nav {
         width: 250px;
         flex-shrink: 0;
     }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
 
 }

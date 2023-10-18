@@ -4,18 +4,27 @@ Debug--------------------------------------------
 -------------------------------------------------
 */
 
-.debug footer {
-    background-color: rgb(57, 134, 108);
-    border: 1px dashed white;
-    height: 90px;
-}
-
+/* MAIN*/
 .debug .col-nav {
-    background-color: pink;
+    background-color: rgb(237, 98, 183);
     border: 1px dashed black;
 }
 
 .debug .col-music {
-    background-color: aqua;
+    background-color: rgb(63, 117, 233);
     border: 1px dashed black;
 }
+
+.debug .logo {
+    background-color: palevioletred;
+    border: 1px dashed white;
+}
+/* /MAIN*/
+
+/* FOOTER*/
+.debug footer {
+    background-color: rgb(67, 177, 45);
+    border: 1px dashed white;
+    height: 90px;
+}
+/* /FOOTER*/

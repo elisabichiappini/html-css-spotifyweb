@@ -19,7 +19,6 @@ Import-------------------------------------------
 /* Importazione utility */
 @import '_partials/utility.css';
 /* /Importazione utility */
-
 /* Importazione responsive */
 @import '_partials/responsive.css';
 /* /Importazione responsive */
@@ -40,17 +39,13 @@ Variables----------------------------------------
     --bg-color7: #adff2f;
 }
 
-
 /*
 -------------------------------------------------
 Stile Css----------------------------------------
 -------------------------------------------------
 */
 
-.container {
-    max-width: 540px;
-    margin: 0 auto;
-}
+
 
 footer {
     max-width: 100%;

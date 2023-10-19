@@ -14,6 +14,14 @@ Responsive---------------------------------------
     .playlist.from-s {
         display: flex;
     }
+
+    .logo .image.from-s {
+        display: flex;
+    }
+
+    .logo .image.only-xs {
+        display: none;
+    }
 }
 
 /* md */

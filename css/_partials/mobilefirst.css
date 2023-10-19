@@ -19,6 +19,14 @@ Stile Css: mobile first--------------------------
     display: none;
 }
 
+.logo .image.from-s {
+    display: none;
+}
+
+.logo .image.only-xs {
+    display: flex;
+}
+
 .account {
     margin-top: auto;
 }

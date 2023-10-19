@@ -23,6 +23,16 @@ Debug--------------------------------------------
 
 .debug .playlist {
     background-color: pink;
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+.debug .playlist .add {
+    background-color: crimson;
+    border: 1px dashed white;
+}
+
+.debug .playlist .list {
+    background-color: purple;
     border: 1px dashed white;
 }
 
@@ -30,6 +40,7 @@ Debug--------------------------------------------
     background-color: rgb(154, 15, 112);
     border: 1px dashed white;
 }
+
 /* /col-nav */
 
 /* col-music */

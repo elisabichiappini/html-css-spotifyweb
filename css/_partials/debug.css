@@ -54,7 +54,6 @@ Debug--------------------------------------------
 .debug footer {
     background-color: rgb(175, 236, 163);
     border: 1px dashed black;
-    height: 90px;
 }
 
 .debug .track {

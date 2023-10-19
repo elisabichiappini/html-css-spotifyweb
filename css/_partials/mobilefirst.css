@@ -1,0 +1,43 @@
+/*
+-------------------------------------------------
+Stile Css: mobile first--------------------------
+-------------------------------------------------
+*/
+
+/* MAIN */
+/* top */
+.main-container {
+    height: calc(100vh - 90px);
+}
+
+.col-nav {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.playlist.from-s {
+    display: none;
+}
+
+.account {
+    margin-top: auto;
+}
+.col-music {
+    flex-grow: 1;
+}
+
+
+/* /top */
+
+/*FOOTER*/
+/* bottom */
+.footer-container {
+    max-width: 100%;
+    height: 90px;
+    background-color: var(--bg-color4);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+/* /bottom */

@@ -16,7 +16,6 @@ Utility-------------------------------------------
 .flex-column {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
 }
 
 .align-center {

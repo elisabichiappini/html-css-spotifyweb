@@ -4,23 +4,29 @@ Responsive---------------------------------------
 -------------------------------------------------
 */
 
+/* s */
 @media screen and (min-width: 576px) {
 
     main .col-nav {
         width: 250px;
         flex-shrink: 0;
     }
-
-    div.from-md {
-        display: block;
+    .playlist.from-s {
+        display: flex;
     }
 }
 
+/* md */
 @media screen and (min-width: 768px) {
 
-   
 }
 
+/* l */
 @media screen and (min-width: 992px) {
+
+}
+
+/* xl */
+@media screen and (min-width: 1200px) {
 
 }

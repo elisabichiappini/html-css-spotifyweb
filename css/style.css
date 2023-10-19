@@ -10,6 +10,9 @@ Import-------------------------------------------
 /* Importazione reset */
 @import '_partials/reset.css';
 /* /Importazione reset */
+/* Importazione variables */
+@import '_partials/variables.css';
+/* Importazione variables */
 /* Importazione typography */
 @import '_partials/typography.css';
 /* /Importazione typography */
@@ -19,64 +22,9 @@ Import-------------------------------------------
 /* Importazione utility */
 @import '_partials/utility.css';
 /* /Importazione utility */
+/* Importazione mobilefirst */
+@import '_partials/mobilefirst.css';
+/* /Importazione mobilefirst */
 /* Importazione responsive */
 @import '_partials/responsive.css';
 /* /Importazione responsive */
-
-/*
--------------------------------------------------
-Variables----------------------------------------
--------------------------------------------------
-*/
-
-:root {
-    --bg-color1: #080b12;
-    --bg-color2: #141922;
-    --bg-color3: #000000;
-    --bg-color4: #282828;
-    --bg-color5: #a3a3a3;
-    --bg-color6: #ffffff;
-    --bg-color7: #adff2f;
-}
-
-/*
--------------------------------------------------
-Stile Css----------------------------------------
--------------------------------------------------
-*/
-
-
-
-footer {
-    max-width: 100%;
-    height: 90px;
-    background-color: var(--bg-color4);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-}
-
- .container {
-    height: calc(100vh - 90px);
-}
-
-.col-nav {
-    width: 50px;
-    flex-shrink: 0;
-}
-
-.col-music {
-    flex-grow: 1;
-}
-
-.from-md {
-    display: none;
-}
-
-.from-s {
-    display: none;
-}
-.only-xs {
-    display: block;
-}

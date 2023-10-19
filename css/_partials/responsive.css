@@ -11,15 +11,23 @@ Responsive---------------------------------------
         width: 250px;
         flex-shrink: 0;
     }
+    .col-nav {
+        padding: 20px 0 5px;
+    }
+    
     .playlist.from-s {
         display: flex;
     }
 
-    .logo .image.from-s {
+    .menu a.from-s {
         display: flex;
     }
-
-    .logo .image.only-xs {
+    
+    .logo .logotipo.image.from-s {
+        display: flex;
+    }
+    
+    .logo .logo-small.image.only-xs {
         display: none;
     }
 }

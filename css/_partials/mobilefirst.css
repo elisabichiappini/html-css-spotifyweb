@@ -17,6 +17,11 @@ Stile Css: mobile first--------------------------
 
 .playlist.from-s {
     display: none;
+    overflow: hidden;;
+}
+
+.playlist ul.list {
+    overflow-y: auto;
 }
 
 .logo .image.from-s {

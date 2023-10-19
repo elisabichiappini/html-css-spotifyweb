@@ -61,7 +61,7 @@ Stile Css: mobile first--------------------------
 ul.menu li.flex-row {
     color: var(--bg-color5);
 }
-.menu li > img {
+.menu li a.btn > img {
     width: 25px;
 }
 

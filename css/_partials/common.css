@@ -6,5 +6,6 @@ Common-------------------------------------------
 
 a.btn {
     all: unset;
+    cursor: pointer;
 }
 

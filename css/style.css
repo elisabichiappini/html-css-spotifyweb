@@ -10,9 +10,6 @@ Import-------------------------------------------
 /* Importazione reset */
 @import '_partials/reset.css';
 /* /Importazione reset */
-/* Importazione variables */
-@import '_partials/variables.css';
-/* Importazione variables */
 /* Importazione typography */
 @import '_partials/typography.css';
 /* /Importazione typography */

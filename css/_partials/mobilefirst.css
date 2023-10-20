@@ -60,7 +60,8 @@ ul.menu li a.btn {
     width: 25px;
 }
 
-.menu li .btn h5.from-s {
+.menu li .btn h5.from-s,
+.account .download .btn h3.from-s {
     display: none;
 }
 
@@ -115,7 +116,7 @@ a.btn.flex-row,
     margin-top: auto;
 }
 
-.account .download .btn span.from-s {
+.account .download .btn h5.from-s {
     display: none;
 }
 

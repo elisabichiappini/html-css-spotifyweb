@@ -67,7 +67,8 @@ Responsive---------------------------------------
         color: var(--bg-color1);
     }
 
-    .account .download .btn span.from-s,
+    .account .download .btn h5.from-s,
+    .account .download .btn h3.from-s,
     .account .download .flex-row,
     .playlist .add {
         display: flex;
@@ -77,6 +78,7 @@ Responsive---------------------------------------
     .account .download > hr {
         margin: 10px 20px;
     }
+}
 
 /* md */
 @media screen and (min-width: 768px) {

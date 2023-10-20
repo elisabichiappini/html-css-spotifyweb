@@ -15,10 +15,6 @@ Responsive---------------------------------------
         padding: 20px 0 5px;
     }
     
-    .playlist.from-s {
-        display: flex;
-    }
-
     .logo .logotipo.image.from-s {
         display: flex;
         margin: 0 0 23px 20px;
@@ -28,11 +24,16 @@ Responsive---------------------------------------
         display: none;
     }
 
-    .menu li .btn span.from-s,
+    .menu li .btn h5.from-s,
     .menu li .flex-row {
         display: flex;
         gap: 10px
     }
+    
+    ul.menu img.image{
+        padding: 0;
+    }
+
     a.btn.flex-row,
     .user-image.flex-row {
         display: flex;
@@ -40,13 +41,42 @@ Responsive---------------------------------------
         padding: 7px 0 7px 20px;
     }
 
+    .playlist.from-s {
+        display: flex;
+        margin: 18px 0 0 20px;
+        color: var(--bg-color6);
+        padding: 5px 0 0;
+    }
+    .playlist div.add.flex-row {
+        margin-top: 5px;
+    }
+    .playlist ul.list > li {
+        padding: 5px 0;
+    }
+
+    .playlist .add i {
+        font-size: 38px;
+        margin: 5px 0;
+    }
+
+    .playlist .add.flex-row {
+        align-items: center;
+    }
+
+    .playlist.from-s h4 {
+        color: var(--bg-color1);
+    }
+
     .account .download .btn span.from-s,
-    .account .download .flex-row {
+    .account .download .flex-row,
+    .playlist .add {
         display: flex;
         gap: 10px;
     }
 
-}
+    .account .download > hr {
+        margin: 10px 20px;
+    }
 
 /* md */
 @media screen and (min-width: 768px) {

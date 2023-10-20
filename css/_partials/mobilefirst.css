@@ -32,16 +32,7 @@ Stile Css: mobile first--------------------------
     width: 50px;
     flex-shrink: 0;
     padding: 5px 0;
-    background-color: var(--bg-color3);
-}
-
-.playlist.from-s {
-    display: none;
-    overflow: hidden;;
-}
-
-.playlist ul.list {
-    overflow-y: auto;
+    background-color: var(--bg-color2);
 }
 
 .logo .logotipo.image.from-s {
@@ -59,6 +50,7 @@ Stile Css: mobile first--------------------------
 .logo .logo-small {
     width: 30px;
     margin: 0 auto;
+    margin-bottom: 10px
 }
 
 ul.menu li a.btn {
@@ -68,8 +60,16 @@ ul.menu li a.btn {
     width: 25px;
 }
 
-.menu li .btn span.from-s {
+.menu li .btn h5.from-s {
     display: none;
+}
+
+ul.menu li a > img {
+    padding-bottom: 10px;
+}
+
+.account .download > a {
+    padding: 5px;
 }
 
 a.btn.flex-row,
@@ -77,6 +77,15 @@ a.btn.flex-row,
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.playlist.from-s {
+    display: none;
+    overflow: hidden;;
+}
+
+.playlist ul.list {
+    overflow-y: auto;
 }
 
 /* /top */
@@ -91,14 +100,13 @@ a.btn.flex-row,
 }
 
 /* bottom*/
-
 /*col-nav*/
 
 /*col-music*/
 /* top */
 .col-music {
     flex-grow: 1;
-    background-color: var(--bg-color2);
+    background-color: var(--bg-color3);
 }
 /* /top */
 
@@ -111,7 +119,7 @@ a.btn.flex-row,
     display: none;
 }
 
-.account .download .btn .user-image .image {
+.account .download .btn.user-image img.image {
     border-radius: 50px;
     background-color: var(--bg-color5);
     width: 25px;

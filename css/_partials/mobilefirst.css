@@ -10,8 +10,9 @@ Variables----------------------------------------
     --bg-color3: #000000;
     --bg-color4: #282828;
     --bg-color5: #a3a3a3;
-    --bg-color6: #ffffff;
-    --bg-color7: #adff2f;
+    --bg-color6: #d2d2d2;
+    --bg-color7: #ffffff;
+    --bg-color8: #adff2f;
 }
 
 /*
@@ -59,7 +60,7 @@ Stile Css: mobile first--------------------------
 }
 
 ul.menu li.flex-row {
-    color: var(--bg-color5);
+    color: var(--bg-color6);
 }
 .menu li a.btn > img {
     width: 25px;

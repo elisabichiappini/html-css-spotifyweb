@@ -9,10 +9,10 @@ Responsive---------------------------------------
 
     /*SIDENAV*/
     main .col-nav {
-        width: 250px;
+        width: 230px;
         flex-shrink: 0;
     }
-    
+
     .col-nav {
         padding: 20px 0 5px;
     }
@@ -85,6 +85,20 @@ Responsive---------------------------------------
         margin: 0 20px;
     }
 /*SIDENAV*/
+
+/*MUSIC SPACE*/
+.upgrade {
+    right: 0;
+    top: 0;
+    left: 230px;
+}
+
+
+
+
+
+
+
 }
 
 /* md */

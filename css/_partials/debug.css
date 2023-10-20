@@ -64,6 +64,12 @@ Debug--------------------------------------------
     border: 1px dashed white;
 }
 
+.debug #recent-list,
+.debug #ai-list,
+.debug #bestartist-list {
+    background-color: rgb(74, 151, 210);
+    border: 1px dashed rgb(0, 0, 0);
+}
 /* col-music */
 /* /MAIN*/
 

@@ -98,8 +98,8 @@ a.btn.flex-row,
     border-bottom: #808080;
 }
 
-.account .download a:first-child i {
-    font-size: 14px;
+.account .download img {
+    width: 18px;
 }
 
 .account hr.from-s {
@@ -156,6 +156,11 @@ a.btn.flex-row,
     position: absolute;
 }
 
+#ai-list h5, 
+#bestartist-list h5 {
+    margin-top: 10px;
+    color: var(--bg-color6);
+}
 
 /* /Music: top */
 
@@ -180,7 +185,7 @@ a.btn.flex-row,
 #bestartist-list .row.flex-row {
     gap: 10px;
     text-align: center;
-    padding: 30px 0 10px;
+    padding: 25px 0 10px;
 }
 
 #recent-list .row .track, 

@@ -79,17 +79,17 @@ Debug--------------------------------------------
     border: 1px dashed black;
 }
 
-.debug .track {
+.debug #track {
     background-color: rgb(123, 214, 124);
     border: 1px dashed white;
 }
 
-.debug .audio-system {
+.debug #audio-system {
     background-color: rgb(51, 172, 40);
     border: 1px dashed white;
 }
 
-.debug .volume {
+.debug #volume {
     background-color: rgb(18, 100, 18);
     border: 1px dashed white;
 }

@@ -92,7 +92,14 @@ Responsive---------------------------------------
         top: 0;
         left: 230px;
     }
+/*/MUSIC SPACE*/
 
+/*FOOTER*/
+    #footer-container img.image {
+        justify-content: center;
+        width: 39px;
+    }
+/*FOOTER*/
 }
 
 /* md */
@@ -104,6 +111,15 @@ Responsive---------------------------------------
         flex-shrink: 0;
         width: calc((100% - 30px) / 4);
     }
+
+    #footer-container #track .icon-like-add.flex-column {
+        flex-direction: row;
+        text-align: right;
+        display: inline-block;
+        padding-left: 40px;
+    }
+
+    #footer-container #track
 }
 
 /* l */

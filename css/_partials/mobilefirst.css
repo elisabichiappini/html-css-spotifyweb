@@ -20,7 +20,6 @@ Variables----------------------------------------
 Stile Css: mobile first--------------------------
 -------------------------------------------------
 */
-
 /* WebApp Spotify TOP*/
 
 #main-container {
@@ -214,10 +213,27 @@ a.btn.flex-row,
     bottom: 0;
     right: 0;
     left: 0;
+    padding: 10px;
 }
 /* container footer*/
 
 /* left footer */
+#footer-container #track,
+#footer-container #volume {
+    min-width: 25vw;
+}
+
+#footer-container img.image {
+    justify-content: center;
+    width: 28px;
+}
+#footer-container #track .icon-like-add i {
+    font-size: 14px;
+}
+
+#footer-container #track.flex-row.align-center {
+    gap: 10px
+}
 /* /left footer */
 
 /* center footer */

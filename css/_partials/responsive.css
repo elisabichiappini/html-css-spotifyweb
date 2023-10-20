@@ -94,19 +94,25 @@ Responsive---------------------------------------
 }
 
 
-
-
-
 }
 
 /* md */
 @media screen and (min-width: 768px) {
 
+    #recent-list .row .track {
+        flex-shrink: 0;
+        width: calc((100% - 30px) / 4);
+    }
+    
 }
 
 /* l */
 @media screen and (min-width: 992px) {
 
+    #recent-list .row .track {
+        flex-shrink: 0;
+        width: calc((100% - 50px) / 6);
+    }
 }
 
 /* xl */

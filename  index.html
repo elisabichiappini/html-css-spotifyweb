@@ -22,9 +22,9 @@
 <body>
     <!--Web-app-->
     <!--Web-app: top-->
-    <main class="main-container flex-row">
+    <main id="main-container" class="flex-row">
         <!--Sidenav-->
-        <nav class="col-nav flex-column">
+        <nav id="col-nav" class="flex-column">
             <!--Sidenav: top-->
             <!-- Section logo-->
             <div class="logo">
@@ -116,14 +116,30 @@
                     <h4>Effettua l'upgrade</h4>
                 </a>
             </div>
-            <div class="music-box">music - griglia</div>
+            <div class="music-box">
+                <div clas="categories">
+                    <ul class="flex-row justify-center wrap">
+                        <li><h4>In evidenza</h4></li>
+                        <li><h4>Podcast</h4></li>
+                        <li><h4>Classifiche</h4></li>
+                        <li><h4>Generi e mood</h4></li>
+                        <li><h4>Nuove uscite</h4></li>
+                        <li><h4>Scopri</h4></li>
+                    </ul>
+                </div>
+                <div>row Recently played
+                    <div>row1</div>
+                    <div>row2</div>
+                    <div>row3</div>
+                </div>
+            </div>
         </div>    
         <!--/Music space--> 
     </main>
     <!--/Web-app top-->
 
     <!--Web-app: bottom-->
-    <footer class="footer-container flex-row space-btw">
+    <footer id="footer-container" class="flex-row space-btw">
         <div class="track">brano - img + titolo + icone </div>
         <div class="audio-system">sistema audio - top + bottom</div>
         <div class="volume">volume</div>

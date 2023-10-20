@@ -18,10 +18,18 @@ Utility-------------------------------------------
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .align-center {
     align-items: center;
 }
 
 .space-btw {
     justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
 }

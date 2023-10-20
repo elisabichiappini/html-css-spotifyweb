@@ -8,12 +8,12 @@ Responsive---------------------------------------
 @media screen and (min-width: 576px) {
 
     /*SIDENAV*/
-    main .col-nav {
+    main #col-nav {
         width: 230px;
         flex-shrink: 0;
     }
 
-    .col-nav {
+    #col-nav {
         padding: 20px 0 5px;
     }
     
@@ -92,8 +92,6 @@ Responsive---------------------------------------
     top: 0;
     left: 230px;
 }
-
-
 
 
 

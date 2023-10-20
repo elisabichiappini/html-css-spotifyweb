@@ -6,7 +6,7 @@ Debug--------------------------------------------
 
 /* MAIN*/
 /* col-nav */
-.debug .col-nav {
+.debug #col-nav {
     background-color: rgb(237, 98, 183);
     border: 1px dashed black;
 }
@@ -44,7 +44,7 @@ Debug--------------------------------------------
 /* /col-nav */
 
 /* col-music */
-.debug .col-music {
+.debug #col-music {
     background-color: rgb(63, 117, 233);
     border: 1px dashed black;
 }
@@ -58,11 +58,17 @@ Debug--------------------------------------------
     background-color: rgb(81, 106, 219);
     border: 1px dashed white;
 }
+
+.debug #main-container ul.flex-row.justify-center.wrap {
+    background-color: rgb(63, 23, 222);
+    border: 1px dashed white;
+}
+
 /* col-music */
 /* /MAIN*/
 
 /* FOOTER*/
-.debug footer {
+.debug footer#footer-container {
     background-color: rgb(175, 236, 163);
     border: 1px dashed black;
 }

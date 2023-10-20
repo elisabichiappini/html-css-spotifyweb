@@ -89,6 +89,16 @@ Debug--------------------------------------------
     border: 1px dashed white;
 }
 
+.debug #audio-system .system-top {
+    background-color: green;
+    border: 1px dashed white;
+}
+
+.debug #audio-system .system-bottom {
+    background-color: greenyellow;
+    border: 1px dashed white;
+}
+
 .debug #volume {
     background-color: rgb(18, 100, 18);
     border: 1px dashed white;

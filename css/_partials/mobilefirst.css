@@ -223,6 +223,9 @@ a.btn.flex-row,
     min-width: 25vw;
 }
 
+#footer-container #audio-system {
+    min-width: 40vw;
+}
 #footer-container img.image {
     justify-content: center;
     width: 28px;
@@ -232,8 +235,19 @@ a.btn.flex-row,
 }
 
 #footer-container #track.flex-row.align-center {
-    gap: 10px
+    gap: 10px;
 }
+
+#footer-container #audio-system .system-top .flex-row li.play {
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+#footer-container #audio-system .system-top .flex-row {
+    justify-content: center;
+    gap: 10px;
+}
+
 /* /left footer */
 
 /* center footer */

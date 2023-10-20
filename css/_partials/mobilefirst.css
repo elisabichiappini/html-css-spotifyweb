@@ -5,14 +5,14 @@ Variables----------------------------------------
 */
 
 :root {
-    --bg-color1: #080b12;
-    --bg-color2: #141922;
-    --bg-color3: #000000;
-    --bg-color4: #282828;
-    --bg-color5: #a3a3a3;
-    --bg-color6: #d2d2d2;
-    --bg-color7: #ffffff;
-    --bg-color8: #adff2f;
+    --bg-color1: #ffffff; /*white*/
+    --bg-color2: #000000; /*nero*/
+    --bg-color3: #141922; /*bg main*/
+    --bg-color4: #282828; /*bg footer*/
+    --bg-color5: #808080; /*user bg */
+    --bg-color6: #a3a3a3; /*playlist plus -  text*/
+    --bg-color8: #adff2f; /*hover*/
+
 }
 
 /*
@@ -22,6 +22,7 @@ Stile Css: mobile first--------------------------
 */
 
 /* MAIN */
+/*col-nav*/
 /* top */
 .main-container {
     height: calc(100vh - 90px);
@@ -30,7 +31,8 @@ Stile Css: mobile first--------------------------
 .col-nav {
     width: 50px;
     flex-shrink: 0;
-    padding: 5px 0 10px;
+    padding: 5px 0;
+    background-color: var(--bg-color3);
 }
 
 .playlist.from-s {
@@ -59,26 +61,66 @@ Stile Css: mobile first--------------------------
     margin: 0 auto;
 }
 
-ul.menu li.flex-row {
+ul.menu li a.btn {
     color: var(--bg-color6);
 }
-.menu li a.btn > img {
+.menu li a img {
     width: 25px;
 }
 
-.menu a.from-s {
+.menu li .btn span.from-s {
     display: none;
 }
 
+a.btn.flex-row,
+.user-image.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* /top */
+
+/* bottom*/
+.account .download a:first-child {
+    border-bottom: #808080;
+}
+
+.account .download a:first-child i {
+    font-size: 14px;
+}
+
+/* bottom*/
+
+/*col-nav*/
+
+/*col-music*/
+/* top */
+.col-music {
+    flex-grow: 1;
+    background-color: var(--bg-color2);
+}
+/* /top */
+
+/* grid */
 .account {
     margin-top: auto;
 }
-.col-music {
-    flex-grow: 1;
+
+.account .download .btn span.from-s {
+    display: none;
 }
 
+.account .download .btn .user-image .image {
+    border-radius: 50px;
+    background-color: var(--bg-color5);
+    width: 25px;
+    height: 25px;
+}
+/* grid */
+/*col-music*/
 
-/* /top */
+
 
 /*FOOTER*/
 /* bottom */

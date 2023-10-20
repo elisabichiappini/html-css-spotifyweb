@@ -19,17 +19,33 @@ Responsive---------------------------------------
         display: flex;
     }
 
-    .menu a.from-s {
-        display: flex;
-    }
-    
     .logo .logotipo.image.from-s {
         display: flex;
-    }
+        margin: 0 0 23px 20px;
+    } 
     
     .logo .logo-small.image.only-xs {
         display: none;
     }
+
+    .menu li .btn span.from-s,
+    .menu li .flex-row {
+        display: flex;
+        gap: 10px
+    }
+    a.btn.flex-row,
+    .user-image.flex-row {
+        display: flex;
+        justify-content: flex-start;
+        padding: 7px 0 7px 20px;
+    }
+
+    .account .download .btn span.from-s,
+    .account .download .flex-row {
+        display: flex;
+        gap: 10px;
+    }
+
 }
 
 /* md */

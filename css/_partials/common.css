@@ -7,5 +7,9 @@ Common-------------------------------------------
 a.btn {
     all: unset;
     cursor: pointer;
+    color: var(--bg-color5)
 }
 
+li {
+    list-style-type: none;
+}

@@ -20,39 +20,56 @@
     <!--/ Collegamento File Css-->
 </head>
 <body>
-    <!--Web-app top-->
+    <!--Web-app-->
+    <!--Web-app: top-->
     <main class="main-container flex-row">
+        <!--Sidenav-->
         <nav class="col-nav flex-column">
+            <!--Sidenav: top-->
+            <!-- Section logo-->
             <div class="logo">
                 <img src="img/logo.svg" alt="logotipo" class="logotipo image from-s">
                 <img src="img/logo-small.svg" alt="logo" class="logo-small image only-xs">
             </div>
+            <!-- /Section logo-->
+            <!-- Section menu-->
             <ul class="menu">
+                <!--Section menu: home-->
                 <li>
                     <a href="#" target="_blank" class="btn flex-row">
                         <img src="img/home.svg" alt="home" class="image">
                         <h5 class="from-s">Home</h5>
                     </a>
                 </li>
+                <!--/Section menu: home-->
+                <!--Section menu: search-->
                 <li>
                     <a href="#" target="_blank" class="btn flex-row">
                         <img src="img/search.svg" alt="search" class="image">
                         <h5 class="from-s">Cerca</h5>
                     </a>
                 </li>
+                <!--/Section menu: search-->
+                <!--Section menu: library-->
                 <li>
                     <a href="#" target="_blank" class="btn flex-row">
                         <img src="img/libreria.svg" alt="library" class="image">
                         <h5 class="from-s">La tua libreria</h5>
                     </a>
                 </li>
+                <!--/Section menu: library-->
             </ul>
+            <!-- /Section menu-->
+            <!-- Section playlist-->
             <div class="playlist from-s flex-column">
                 <h4>playlist</h4>
+                <!--Bottom Add playlist-->
                 <div class="add flex-row">
                     <i class="fa-solid fa-square-plus"></i>
                     <h5>Crea playlist</h5>
                 </div>
+                <!--Bottom Add playlist-->
+                <!--List playlist-->
                 <ul class="list">
                     <li><h5>Nome Playlist</h5></li>
                     <li><h5>Nome Playlist</h5></li>
@@ -60,36 +77,53 @@
                     <li><h5>Nome Playlist</h5></li>
                     <li><h5>Nome Playlist</h5></li>
                     <li><h5>Nome Playlist</h5></li>
-
                 </ul>
+                <!--List playlist-->
             </div>
+            <!-- /Section playlist-->
+            <!--Sidenav: top-->
+
+            <!--Sidenav: bottom-->
+            <!-- Section account-->
             <div class="account">
+                <!--Section download-->
                 <div class="download">
                     <a href="#" target="_blank" class="btn flex-row">
                         <i class="fa-regular fa-circle-down"></i>
                         <h5 class="from-s">Installa App</h5>
                     </a>
-                    <hr>
-                    <a href="#" target="_blank" class="btn user-image flex-row">
+                </div>
+                <!--/Section download-->
+                <hr class="from-s">
+                <!-- /Section user-image-->
+                <div class="user-image">
+                    <a href="#" target="_blank" class="btn flex-row">
                         <img src="img/profile.svg" alt="profilo" class="image">
                         <h3 class="from-s">John Doe</h3>
                     </a>
                 </div>
+                <!-- /Section user-image-->
             </div>
+            <!--/Section account-->
         </nav>
+        <!--/Sidenav: bottom-->
+        <!--/Sidenav-->
+
+        <!--Music space-->
         <div class="col-music flex-column">
             <div class="upgrade">upgrade - bottone</div>
             <div class="music-box">music - griglia</div>
-        </div>      
+        </div>    
+        <!--/Music space--> 
     </main>
     <!--/Web-app top-->
 
-    <!--Web-app bottom-->
+    <!--Web-app: bottom-->
     <footer class="footer-container flex-row space-btw">
         <div class="track">brano - img + titolo + icone </div>
         <div class="audio-system">sistema audio - top + bottom</div>
         <div class="volume">volume</div>
     </footer>
-    <!--Web-app bottom-->
+    <!--/Web-app: bottom-->
 </body>
 </html>

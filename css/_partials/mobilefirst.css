@@ -21,20 +21,22 @@ Stile Css: mobile first--------------------------
 -------------------------------------------------
 */
 
-/* MAIN */
-/*col-nav*/
-/* top */
+/* WebApp Spotify TOP*/
+
 .main-container {
     height: calc(100vh - 90px);
 }
 
+/*SIDENAV*/
+/* container col-nav*/
 .col-nav {
     width: 50px;
     flex-shrink: 0;
     padding: 5px 0;
     background-color: var(--bg-color2);
 }
-
+/* /container col-nav*/
+/* Sidernav: top */
 .logo .logotipo.image.from-s {
     display: none;
 }
@@ -56,12 +58,13 @@ Stile Css: mobile first--------------------------
 ul.menu li a.btn {
     color: var(--bg-color6);
 }
+
 .menu li a img {
     width: 25px;
 }
 
 .menu li .btn h5.from-s,
-.account .download .btn h3.from-s {
+.account .user-image h3.from-s {
     display: none;
 }
 
@@ -69,8 +72,8 @@ ul.menu li a > img {
     padding-bottom: 10px;
 }
 
-.account .download > a {
-    padding: 5px;
+.account > div.download, div.user-image {
+    padding: 10px 0;
 }
 
 a.btn.flex-row,
@@ -88,10 +91,9 @@ a.btn.flex-row,
 .playlist ul.list {
     overflow-y: auto;
 }
+/* /Sidenav: top */
 
-/* /top */
-
-/* bottom*/
+/* Sidenav: bottom */
 .account .download a:first-child {
     border-bottom: #808080;
 }
@@ -100,18 +102,9 @@ a.btn.flex-row,
     font-size: 14px;
 }
 
-/* bottom*/
-/*col-nav*/
-
-/*col-music*/
-/* top */
-.col-music {
-    flex-grow: 1;
-    background-color: var(--bg-color3);
+.account hr.from-s {
+    display: none;
 }
-/* /top */
-
-/* grid */
 .account {
     margin-top: auto;
 }
@@ -120,19 +113,36 @@ a.btn.flex-row,
     display: none;
 }
 
-.account .download .btn.user-image img.image {
+.account .user-image img.image {
     border-radius: 50px;
     background-color: var(--bg-color5);
     width: 25px;
     height: 25px;
 }
-/* grid */
-/*col-music*/
+/* Sidenav: bottom */
+/* /SIDENAV */
 
+/* MUSIC SPACE*/
+/* container col-music*/
+.col-music {
+    flex-grow: 1;
+    background-color: var(--bg-color3);
+}
+/* /container col-music*/
 
+/* Music: top */
 
+/* /Music: top */
+
+/* Music: bottom */
+
+/* /Music: bottom */
+
+/* /WebApp Spotify TOP*/
+
+/* WebApp Spotify BOTTOM*/
 /*FOOTER*/
-/* bottom */
+/* container footer*/
 .footer-container {
     max-width: 100%;
     height: 90px;
@@ -142,4 +152,15 @@ a.btn.flex-row,
     right: 0;
     left: 0;
 }
-/* /bottom */
+/* container footer*/
+
+/* left footer */
+/* /left footer */
+
+/* center footer */
+/* /center footer */
+
+/* right footer */
+/* /right footer */
+
+/* WebApp Spotify BOTTOM*/

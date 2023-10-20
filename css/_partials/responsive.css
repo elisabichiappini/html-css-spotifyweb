@@ -7,10 +7,12 @@ Responsive---------------------------------------
 /* s */
 @media screen and (min-width: 576px) {
 
+    /*SIDENAV*/
     main .col-nav {
         width: 250px;
         flex-shrink: 0;
     }
+    
     .col-nav {
         padding: 20px 0 5px;
     }
@@ -35,7 +37,7 @@ Responsive---------------------------------------
     }
 
     a.btn.flex-row,
-    .user-image.flex-row {
+    .account .download  {
         display: flex;
         justify-content: flex-start;
         padding: 7px 0 7px 20px;
@@ -47,9 +49,11 @@ Responsive---------------------------------------
         color: var(--bg-color6);
         padding: 5px 0 0;
     }
+
     .playlist div.add.flex-row {
         margin-top: 5px;
     }
+
     .playlist ul.list > li {
         padding: 5px 0;
     }
@@ -68,16 +72,19 @@ Responsive---------------------------------------
     }
 
     .account .download .btn h5.from-s,
-    .account .download .btn h3.from-s,
+    .account .user-image .btn h3.from-s,
     .account .download .flex-row,
+    .account .user-image .flex-row,
     .playlist .add {
         display: flex;
         gap: 10px;
     }
 
-    .account .download > hr {
-        margin: 10px 20px;
+    .account > hr.from-s {
+        display: flex;
+        margin: 0 20px;
     }
+/*SIDENAV*/
 }
 
 /* md */

@@ -232,9 +232,11 @@ a.btn.flex-row,
     justify-content: center;
     width: 28px;
 }
-#footer-container #track .icon-like-add i {
-    font-size: 14px;
+#footer-container #track .icone-like-add i,
+#footer-container #volume .icone-volume i {
+    font-size: 13px;
 }
+
 
 #footer-container #track.flex-row.align-center,
 #volume .flex-row {
@@ -255,6 +257,26 @@ a.btn.flex-row,
 #footer-container #audio-system .system-top .flex-row {
     justify-content: center;
     gap: 20px;
+}
+#audio-system .system-bottom.flex-row.space-btw.align-center,
+#volume.flew-row.align-center {
+    gap: 10px;
+}
+
+#audio-system .system-bottom .progress-bar,
+#volume .progress-bar {
+    background-color: var(--bg-color6);
+    width: 100%;
+    height: 4px;
+    border-radius: 50px;
+}
+
+#audio-system .system-bottom .progress-bar > .progress,
+#volume .progress-bar > .progress {
+    background-color: var(--bg-color1);
+    width: 25%;
+    height: 4px;
+    border-radius: 50px;
 }
 /* /center footer */
 

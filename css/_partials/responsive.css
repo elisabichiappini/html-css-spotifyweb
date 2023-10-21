@@ -112,7 +112,7 @@ Responsive---------------------------------------
         width: calc((100% - 30px) / 4);
     }
 
-    #footer-container #track .icon-like-add.flex-column {
+    #footer-container #track .icone-like-add.flex-column {
         flex-direction: row;
         text-align: right;
         display: inline-block;

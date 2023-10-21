@@ -24,7 +24,7 @@ Common-------------------------------------------
     transition: 1s;
 }
 
-#col-music .music-box .categories li > a.btn:hover {
-    transition: 1s;
+#col-music li > a.btn h4:hover {
+    transition: 0.5s;
     color: var(--bg-color1);
 }

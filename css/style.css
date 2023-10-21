@@ -22,6 +22,9 @@ Import-------------------------------------------
 /* Importazione mobilefirst */
 @import '_partials/mobilefirst.css';
 /* /Importazione mobilefirst */
+/* Importanzione hover*/
+@import '_partials/hover.css';
+/* /Importazione hover*/
 /* Importazione responsive */
 @import '_partials/responsive.css';
 /* /Importazione responsive */

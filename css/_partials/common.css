@@ -7,9 +7,24 @@ Common-------------------------------------------
 a.btn {
     all: unset;
     cursor: pointer;
-    color: var(--bg-color5)
 }
 
 li {
     list-style-type: none;
+}
+
+/*
+-------------------------------------------------
+Common-------------------------------------------
+-------------------------------------------------
+*/
+
+#col-music .upgrade a.btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#col-music .music-box .categories li > a.btn:hover {
+    transition: 1s;
+    color: var(--bg-color1);
 }

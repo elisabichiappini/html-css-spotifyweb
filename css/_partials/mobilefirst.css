@@ -143,7 +143,7 @@ a.btn.flex-row,
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .upgrade a.btn {
@@ -159,6 +159,12 @@ a.btn.flex-row,
 #bestartist-list h5 {
     margin-top: 10px;
     color: var(--bg-color6);
+}
+
+#col-music hr.underline {
+    display: inline-block;
+    width: 30px;
+    color: var(--bg-color8);
 }
 
 /* /Music: top */
@@ -234,12 +240,6 @@ a.btn.flex-row,
     color: var(--bg-color1);
 }
 
-#footer-container #audio-system {
-    width: 20%;
-    flex-grow: 1;
-    color: var(--bg-color1);
-}
-
 #footer-container img.image {
     justify-content: center;
     width: 28px;
@@ -258,6 +258,13 @@ a.btn.flex-row,
 /* /left footer */
 
 /* center footer */
+
+#footer-container #audio-system {
+    width: 20%;
+    flex-grow: 1;
+    color: var(--bg-color1);
+}
+
 #footer-container #audio-system .system-top .flex-row li.play {
     padding: 0 10px;
     font-size: 30px;

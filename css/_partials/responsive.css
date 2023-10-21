@@ -118,6 +118,7 @@ Responsive---------------------------------------
         display: inline-block;
         padding-left: 40px;
     }
+    
 
 }
 
@@ -132,5 +133,15 @@ Responsive---------------------------------------
     }
     #volume .flex-row {
         gap: 18px;
+    }
+
+    #footer-container #audio-system {
+        width: 520px;
+        flex-grow: 0;
+    }
+
+    #footer-container #track,
+    #footer-container #volume {
+        width: 210px;
     }
 }

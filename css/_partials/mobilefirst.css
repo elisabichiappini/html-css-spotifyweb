@@ -224,11 +224,13 @@ a.btn.flex-row,
 /* left footer */
 #footer-container #track,
 #footer-container #volume {
-    width: 150px;
+    width: 25%;
     color: var(--bg-color1);
 }
 
 #footer-container #audio-system {
+    width: 20%;
+    flex-grow: 1;
     color: var(--bg-color1);
 }
 

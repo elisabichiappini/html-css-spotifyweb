@@ -11,7 +11,7 @@ Variables----------------------------------------
     --bg-color4: #282828; /*bg footer*/
     --bg-color5: #808080; /*user bg */
     --bg-color6: #a3a3a3; /*playlist plus -  text*/
-    --bg-color8: #adff2f; /*hover*/
+    --bg-color7: #adff2f; /*hover*/
 
 }
 
@@ -56,6 +56,11 @@ Stile Css: mobile first--------------------------
 
 ul.menu li a.btn {
     color: var(--bg-color6);
+
+}
+
+#col-nav ul.menu > li a.btn {
+    border-left: 2px solid transparent;
 }
 
 .menu li a img {
@@ -75,8 +80,9 @@ ul.menu li a > img {
     padding: 10px 0;
 }
 
-a.btn.flex-row,
-.user-image.flex-row {
+.menu li a.btn,
+.account .download a.btn.flex-row,
+.account .user-image .flex-row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +90,7 @@ a.btn.flex-row,
 
 .playlist.from-s {
     display: none;
-    overflow: hidden;;
+    overflow: hidden;
 }
 
 .playlist ul.list {
@@ -93,11 +99,8 @@ a.btn.flex-row,
 /* /Sidenav: top */
 
 /* Sidenav: bottom */
-.account .download a:first-child {
-    border-bottom: #808080;
-}
 
-.account .download img {
+.account .download a.btn img {
     width: 18px;
 }
 
@@ -167,6 +170,16 @@ a.btn.flex-row,
     color: var(--bg-color8);
 }
 
+.playlist.from-s h4,
+#col-music #recent-list > h2,
+#col-music #ai-list > h2,
+#col-music #bestartist-list > h2,
+#col-music #recent-list .track > h3,
+#col-music #ai-list .track > h3,
+#col-music #bestartist-list .track > h3,
+#col-nav .account .user-image a.btn > h3 {
+    color: var(--bg-color1);
+}
 /* /Music: top */
 
 /* Music: bottom */
@@ -229,7 +242,7 @@ a.btn.flex-row,
 }
 
 #footer-container.flex-row {
-    gap: 20px
+    gap: 20px;
 }
 /* container footer*/
 
@@ -237,7 +250,14 @@ a.btn.flex-row,
 #footer-container #track,
 #footer-container #volume {
     width: 25%;
+}
+#footer-container #volume,
+#footer-container #track a.btn > h5 {
     color: var(--bg-color1);
+}
+
+#footer-container #track .icone-like-add a.btn {
+    color: var(--bg-color6);
 }
 
 #footer-container img.image {
@@ -255,6 +275,9 @@ a.btn.flex-row,
     gap: 10px;
 }
 
+#footer-container #track .icone-like-add.flex-column > a.btn {
+    padding: 0;
+}
 /* /left footer */
 
 /* center footer */
@@ -263,6 +286,7 @@ a.btn.flex-row,
     width: 20%;
     flex-grow: 1;
     color: var(--bg-color1);
+    display: flex;
 }
 
 #footer-container #audio-system .system-top .flex-row li.play {
@@ -294,6 +318,22 @@ a.btn.flex-row,
     height: 4px;
     border-radius: 50px;
 }
+#audio-system .system-bottom.flex-row.space-btw.align-center div.time-progress-bar {
+    position: relative;
+}
+/* to do
+#footer-container #audio-system .system-bottom .time-progress-bar .progress div.point,
+#footer-container #audio-system .system-bottom .volume-progress-bar .progress div.point {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--bg-color1);
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    left: 25%;
+} 
+to do */
 /* /center footer */
 
 /* right footer */

@@ -11,13 +11,11 @@ body {
 h2 /* ex Recently played*/ {
     font-size: 1.25rem;
     font-weight: 800;
-    color: var(--bg-color1);
 }
 
 h3 /* ex John Doe, Titoli canzoni come Heavy Metal*/ {
     font-size: .75rem;
     font-weight: 900;
-    color: var(--bg-color1);
 }
 
 h4 /* PLAYLIST e UPGRADE*/{

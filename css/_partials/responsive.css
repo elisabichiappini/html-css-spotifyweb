@@ -26,18 +26,19 @@ Responsive---------------------------------------
         display: none;
     }
 
-    .menu li .btn h5.from-s,
+    .menu li a.btn h5.from-s,
     .menu li .flex-row {
         display: flex;
-        gap: 10px
+        gap: 10px;
     }
     
     ul.menu img.image{
         padding: 0;
     }
 
-    a.btn.flex-row,
-    .account .download  {
+    .menu a.btn.flex-row,
+    .account .download a.btn.flex-row,
+    .account .user-image a.btn.flex-row  {
         display: flex;
         justify-content: flex-start;
         padding: 7px 0 7px 20px;
@@ -50,32 +51,31 @@ Responsive---------------------------------------
         padding: 5px 0 0;
     }
 
-    .playlist div.add.flex-row {
-        margin-top: 5px;
-    }
-
     .playlist ul.list > li {
+        padding: 7px 0;
+    }
+    .playlist .add {
         padding: 5px 0;
     }
-
     .playlist .add i {
-        font-size: 38px;
-        margin: 5px 0;
+    font-size: 38px;
+    margin: 5px 0;
     }
 
-    .playlist .add.flex-row {
+    .playlist .add .flex-row {
         align-items: center;
     }
 
-    .playlist.from-s h4 {
-        color: var(--bg-color1);
+    
+    #col-nav .account .download a.btn > h5{
+        color: var(--bg-color6);
     }
 
-    .account .download .btn h5.from-s,
-    .account .user-image .btn h3.from-s,
-    .account .download .flex-row,
-    .account .user-image .flex-row,
-    .playlist .add {
+    #col-nav .account .download a.btn > h5.from-s,
+    #col-nav .account .user-image a.btn > h3.from-s,
+    #col-nav .account .download .flex-row,
+    #col-nav .account .user-image .flex-row,
+    .playlist .add a.btn.flex-row{
         display: flex;
         gap: 10px;
     }
@@ -113,12 +113,15 @@ Responsive---------------------------------------
     }
 
     #footer-container #track .icone-like-add.flex-column {
-        flex-direction: row;
         text-align: right;
-        display: inline-block;
+        display: flex;
         padding-left: 40px;
     }
-    
+
+    #footer-container #track,
+    #footer-container #volume {
+        width: 210px;
+    }
 }
 
 /* l */
@@ -130,6 +133,7 @@ Responsive---------------------------------------
         flex-shrink: 0;
         width: calc((100% - 50px) / 6);
     }
+
     #volume .flex-row {
         gap: 18px;
     }
@@ -139,8 +143,4 @@ Responsive---------------------------------------
         flex-grow: 0;
     }
 
-    #footer-container #track,
-    #footer-container #volume {
-        width: 210px;
-    }
 }

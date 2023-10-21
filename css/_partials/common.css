@@ -24,7 +24,43 @@ Common-------------------------------------------
     transition: 1s;
 }
 
-#col-music li > a.btn h4:hover {
-    transition: 0.5s;
+#col-music li > a.btn h4:hover,
+#col-nav li >a.btn:hover {
+    transition: color 0.5s;
     color: var(--bg-color1);
 }
+
+#col-nav ul.menu > li a.btn:hover {
+    color: var(--bg-color1);
+    border-left: 2px solid var(--bg-color7);
+}
+
+#col-nav .account .download a.btn h5:hover {
+    color: var(--bg-color1);
+}
+
+#footer-container #track a.btn > h6:hover {
+    color: var(--bg-color1);
+    text-decoration: underline;
+}
+
+#footer-container #track .icone-like-add > a.btn:hover,
+#footer-container #track .icone-like-add a.btn {
+    color:var(--bg-color1)
+}
+
+#footer-container #audio-system .system-top li.play:hover {
+    transform: scale(1.2);
+    transition: scale 0.5s;
+}
+
+#footer-container #audio-system .system-bottom .time-progress-bar .progress:hover,
+#footer-container #volume .volume-progress-bar .progress:hover {
+    background-color: var(--bg-color7);
+}
+
+/* to do
+#footer-container #audio-system .system-bottom .time-progress-bar .progress:hover div.point {
+    display: flex;
+} 
+to do */

@@ -189,7 +189,7 @@ a.btn.flex-row,
 
 #recent-list .row .track, 
 #ai-list .row .track,
-#bestartist-list .row .track {
+#bestartist-list .row .round-image img {
     width: calc((100% - 10px) / 2);
 }
 
@@ -197,6 +197,12 @@ a.btn.flex-row,
 #ai-list .row .track h3,
 #bestartist-list .row .track h3 {
     padding: 10px 0;
+}
+
+#bestartist-list .row .track .round-image img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 /* /Music: bottom */
 

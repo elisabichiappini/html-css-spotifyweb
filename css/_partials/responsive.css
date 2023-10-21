@@ -130,9 +130,7 @@ Responsive---------------------------------------
         flex-shrink: 0;
         width: calc((100% - 50px) / 6);
     }
-}
-
-/* xl */
-@media screen and (min-width: 1200px) {
-
+    #volume .flex-row {
+        gap: 18px;
+    }
 }

@@ -221,10 +221,12 @@ a.btn.flex-row,
 #footer-container #track,
 #footer-container #volume {
     min-width: 25vw;
+    color: var(--bg-color1);
 }
 
 #footer-container #audio-system {
     min-width: 40vw;
+    color: var(--bg-color1);
 }
 #footer-container img.image {
     justify-content: center;
@@ -234,26 +236,33 @@ a.btn.flex-row,
     font-size: 14px;
 }
 
-#footer-container #track.flex-row.align-center {
-    gap: 10px;
-}
-
-#footer-container #audio-system .system-top .flex-row li.play {
-    padding: 0 10px;
-    font-size: 24px;
-}
-
-#footer-container #audio-system .system-top .flex-row {
-    justify-content: center;
+#footer-container #track.flex-row.align-center,
+#volume .flex-row {
     gap: 10px;
 }
 
 /* /left footer */
 
 /* center footer */
+#footer-container #audio-system .system-top .flex-row li.play {
+    padding: 0 10px;
+    font-size: 30px;
+}
+#footer-container #audio-system .system-top .flex-row li {
+    font-size: 18px;
+}
+
+#footer-container #audio-system .system-top .flex-row {
+    justify-content: center;
+    gap: 20px;
+}
 /* /center footer */
 
 /* right footer */
+#volume.flex-row {
+    gap: 6px;
+    justify-content: flex-end;
+}
 /* /right footer */
 
 /* WebApp Spotify BOTTOM*/

@@ -34,4 +34,5 @@ h5 /* ex home, cerca, nome playlist, subtitle*/ {
 h6 /*ex brano nome in footer */{
     font-size: 10px;
     font-weight: 600;
+    color: var(--bg-color6);
 }

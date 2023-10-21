@@ -12,7 +12,6 @@ Variables----------------------------------------
     --bg-color5: #808080; /*user bg */
     --bg-color6: #a3a3a3; /*playlist plus -  text*/
     --bg-color7: #adff2f; /*hover*/
-
 }
 
 /*
@@ -56,7 +55,6 @@ Stile Css: mobile first--------------------------
 
 ul.menu li a.btn {
     color: var(--bg-color6);
-
 }
 
 #col-nav ul.menu > li a.btn {
@@ -107,6 +105,7 @@ ul.menu li a > img {
 .account hr.from-s {
     display: none;
 }
+
 .account {
     margin-top: auto;
 }
@@ -132,7 +131,6 @@ ul.menu li a > img {
     padding-top: 90px;
     overflow-y: auto;
 }
-
 /* /container col-music*/
 
 /* Music: top */
@@ -251,6 +249,7 @@ ul.menu li a > img {
 #footer-container #volume {
     width: 25%;
 }
+
 #footer-container #volume,
 #footer-container #track a.btn > h5 {
     color: var(--bg-color1);
@@ -264,6 +263,7 @@ ul.menu li a > img {
     justify-content: center;
     width: 28px;
 }
+
 #footer-container #track .icone-like-add i,
 #footer-container #volume .icone-volume i {
     font-size: 13px;
@@ -281,7 +281,6 @@ ul.menu li a > img {
 /* /left footer */
 
 /* center footer */
-
 #footer-container #audio-system {
     width: 20%;
     flex-grow: 1;
@@ -318,6 +317,7 @@ ul.menu li a > img {
     height: 4px;
     border-radius: 50px;
 }
+
 #audio-system .system-bottom.flex-row.space-btw.align-center div.time-progress-bar {
     position: relative;
 }

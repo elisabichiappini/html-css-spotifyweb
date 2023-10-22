@@ -157,6 +157,13 @@ ul.menu li a > img {
     border-radius: 40px;
     position: absolute;
 }
+#col-music hr.evidence {
+    width: 30%;
+    position: relative;
+    bottom: 0;
+    left: 35%;
+    color: var(--bg-color7);
+}
 
 #ai-list h5, 
 #bestartist-list h5 {

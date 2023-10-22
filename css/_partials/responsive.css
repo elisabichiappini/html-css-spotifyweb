@@ -10,7 +10,6 @@ Responsive---------------------------------------
     /* SIDENAV */
     main #col-nav {
         width: 230px;
-        flex-shrink: 0;
     }
 
     #col-nav {

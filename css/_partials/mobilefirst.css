@@ -34,6 +34,7 @@ Stile Css: mobile first--------------------------
     background-color: var(--bg-color2);
 }
 /* /container col-nav*/
+
 /* Sidernav: top */
 .logo .logotipo.image.from-s {
     display: none;
@@ -97,7 +98,6 @@ ul.menu li a > img {
 /* /Sidenav: top */
 
 /* Sidenav: bottom */
-
 .account .download a.btn img {
     width: 18px;
 }
@@ -121,9 +121,10 @@ ul.menu li a > img {
     height: 25px;
 }
 /* Sidenav: bottom */
-/* /SIDENAV */
 
+/* /SIDENAV */
 /* MUSIC SPACE*/
+
 /* container col-music*/
 #col-music {
     flex-grow: 1;
@@ -181,7 +182,6 @@ ul.menu li a > img {
 /* /Music: top */
 
 /* Music: bottom */
-
 #col-music .music-box ul.flex-row {
     padding: 20px 0;
     gap: 40px 25px;
@@ -223,9 +223,8 @@ ul.menu li a > img {
 }
 /* /Music: bottom */
 
-/* /WebApp Spotify TOP*/
-
 /* WebApp Spotify BOTTOM*/
+
 /*FOOTER*/
 /* container footer*/
 #footer-container {
@@ -342,5 +341,4 @@ to do */
     justify-content: flex-end;
 }
 /* /right footer */
-
 /* WebApp Spotify BOTTOM*/

@@ -39,6 +39,10 @@ Common-------------------------------------------
     color: var(--bg-color1);
 }
 
+#col-nav .playlist .add a.btn > h5:hover {
+    color: var(--bg-color1);
+}
+
 #footer-container #track a.btn > h6:hover {
     color: var(--bg-color1);
     text-decoration: underline;

@@ -182,11 +182,15 @@ ul.menu li a > img {
 
 
 /* TO DO HOVER TRACK*/
-#col-music #recent-list .image-cover {
+#col-music #recent-list .image-cover,
+#col-music #ai-list .image-cover,
+#col-music #bestartist-list .image-cover.round-image {
     position: relative;
 }
 
-#col-music #recent-list .image-cover div.overlay {
+#col-music #recent-list .image-cover div.overlay,
+#col-music #ai-list .image-cover div.overlay,
+#col-music #bestartist-list .image-cover.round-image div.overlay {
     background-color: var(--bg-color2);
     position: absolute;
     top: 0;
@@ -199,7 +203,9 @@ ul.menu li a > img {
     transition: 0.5s ease;
 }
 
-#col-music #recent-list .image-cover .overlay .icon-overlay {
+#col-music #recent-list .image-cover .overlay .icon-overlay,
+#col-music #ai-list .image-cover .overlay .icon-overlay,
+#col-music #bestartist-list .image-cover.round-image .overlay .icon-overlay {
     color: white;
     font-size: 70px;
     position: absolute;
@@ -208,6 +214,12 @@ ul.menu li a > img {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+#col-music #bestartist-list .image-cover.round-image div.overlay {
+    border-radius: 50%;
+}
+
+ 
 /* TO DO HOVER TRACK*/
 /* /Music: top */
 

@@ -66,11 +66,15 @@ Common-------------------------------------------
     background-color: var(--bg-color7);
 }
 /* TO DO HOVER TRACK*/
-#col-music #recent-list .image-cover div.overlay:hover {
+#col-music #recent-list .image-cover div.overlay:hover,
+#col-music #ai-list .image-cover div.overlay:hover,
+#col-music #bestartist-list .image-cover.round-image div.overlay:hover {
     opacity: 0.7;
 }
 
-#col-music #recent-list .image-cover .overlay:hover .icon-overlay .fa-circle-play {
+#col-music #recent-list .image-cover .overlay:hover .icon-overlay .fa-circle-play,
+#col-music #ai-list .image-cover .overlay:hover .icon-overlay .fa-circle-play,
+#col-music #bestartist-list .image-cover.round-image .overlay:hover .icon-overlay .fa-circle-play {
     color: var(--bg-color1);
 }
 /* TO DO HOVER TRACK*/

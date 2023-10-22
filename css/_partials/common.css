@@ -13,6 +13,9 @@ li {
     list-style-type: none;
 }
 
+.progress {
+    cursor: pointer;
+}
 /*
 -------------------------------------------------
 Common-------------------------------------------
@@ -62,7 +65,15 @@ Common-------------------------------------------
 #footer-container #volume .volume-progress-bar .progress:hover {
     background-color: var(--bg-color7);
 }
+/* TO DO HOVER TRACK*/
+#col-music #recent-list .image-cover div.overlay:hover {
+    opacity: 0.7;
+}
 
+#col-music #recent-list .image-cover .overlay:hover .icon-overlay .fa-circle-play {
+    color: var(--bg-color1);
+}
+/* TO DO HOVER TRACK*/
 /* to do
 #footer-container #audio-system .system-bottom .time-progress-bar .progress:hover div.point {
     display: flex;

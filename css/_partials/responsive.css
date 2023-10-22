@@ -59,8 +59,8 @@ Responsive---------------------------------------
     }
 
     .playlist .add i {
-    font-size: 38px;
-    margin: 5px 0;
+        font-size: 38px;
+        margin: 5px 0;
     }
 
     .playlist .add .flex-row {
@@ -136,6 +136,10 @@ Responsive---------------------------------------
     #bestartist-list .row .track {
         flex-shrink: 0;
         width: calc((100% - 50px) / 6);
+    }
+
+    #col-music #recent-list .image-cover .overlay .icon-overlay {
+        font-size: 90px;
     }
     /* MAIN */
 

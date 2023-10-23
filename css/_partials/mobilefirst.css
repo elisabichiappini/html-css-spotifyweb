@@ -75,6 +75,9 @@ ul.menu li a > img {
     padding-bottom: 10px;
 }
 
+#col-nav li.active {
+    border-left: 2px solid #adff2f;
+}
 .account > div.download, div.user-image {
     padding: 10px 0;
 }
@@ -188,7 +191,6 @@ ul.menu li a > img {
 #col-nav .account .user-image a.btn > h3 {
     color: var(--bg-color1);
 }
-
 
 /* TO DO HOVER TRACK*/
 #col-music #recent-list .image-cover,

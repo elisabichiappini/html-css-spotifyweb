@@ -202,7 +202,7 @@ ul.menu li a > img {
 #col-music #recent-list .image-cover div.overlay,
 #col-music #ai-list .image-cover div.overlay,
 #col-music #bestartist-list .image-cover.round-image div.overlay {
-    background-color: var(--bg-color2);
+    background-color: rgba(0, 0, 0, .4);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -210,15 +210,15 @@ ul.menu li a > img {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
     transition: 0.5s ease;
+    opacity: 0;
 }
 
 #col-music #recent-list .image-cover .overlay .icon-overlay,
 #col-music #ai-list .image-cover .overlay .icon-overlay,
 #col-music #bestartist-list .image-cover.round-image .overlay .icon-overlay {
     color: white;
-    font-size: 70px;
+    font-size: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -229,9 +229,6 @@ ul.menu li a > img {
 #col-music #bestartist-list .image-cover.round-image div.overlay {
     border-radius: 50%;
 }
-
- 
-/* TO DO HOVER TRACK*/
 /* /Music: top */
 
 /* Music: bottom */
@@ -355,7 +352,6 @@ ul.menu li a > img {
 }
 
 
-/* to do */
 #audio-system .system-bottom .time-progress-bar,
 #volume > .volume-progress-bar {
     background-color: var(--bg-color6);

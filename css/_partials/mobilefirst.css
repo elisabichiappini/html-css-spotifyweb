@@ -158,11 +158,11 @@ ul.menu li a > img {
     position: absolute;
 }
 
-#col-music hr.evidence {
-    width: 30%;
+#col-music hr.active {
+    width: 30px;
     position: relative;
-    bottom: -2px;
-    left: 35%;
+    left: 50%;
+    transform: translateX(-50%);
     color: var(--bg-color7);
 }
 

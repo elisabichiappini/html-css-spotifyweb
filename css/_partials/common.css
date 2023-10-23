@@ -61,10 +61,18 @@ Common-------------------------------------------
     transition: scale 0.5s;
 }
 
-#footer-container #audio-system .system-bottom .time-progress-bar .progress:hover,
-#footer-container #volume .volume-progress-bar .progress:hover {
+#footer-container #audio-system .system-bottom .time-progress-bar:hover::before,
+#footer-container #volume .volume-progress-bar:hover::before {
     background-color: var(--bg-color7);
+    cursor: pointer;
 }
+
+#footer-container #audio-system .system-bottom .time-progress-bar:hover::after,
+#footer-container #volume .volume-progress-bar:hover::after {
+    display: block;
+    cursor: pointer;
+}
+
 /* TO DO HOVER TRACK*/
 #col-music #recent-list .image-cover div.overlay:hover,
 #col-music #ai-list .image-cover div.overlay:hover,

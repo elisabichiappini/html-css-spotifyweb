@@ -354,6 +354,8 @@ ul.menu li a > img {
     gap: 20px;
 }
 
+
+/* to do */
 #audio-system .system-bottom .time-progress-bar,
 #volume > .volume-progress-bar {
     background-color: var(--bg-color6);
@@ -362,30 +364,35 @@ ul.menu li a > img {
     border-radius: 50px;
 }
 
-#footer-container #audio-system .system-bottom .time-progress-bar > .progress,
-#footer-container #volume .volume-progress-bar > .progress {
+#footer-container #audio-system .system-bottom .time-progress-bar::before,
+#footer-container #volume .volume-progress-bar::before {
+    content: '';
     background-color: var(--bg-color1);
+    position: absolute;
     width: 25%;
     height: 4px;
     border-radius: 50px;
 }
 
-#audio-system .system-bottom.flex-row.space-btw.align-center div.time-progress-bar {
+#audio-system .system-bottom.flex-row.space-btw.align-center div.time-progress-bar,
+#volume div.volume-progress-bar {
     position: relative;
 }
-/* <<<<<<<<<<<<<<<<<<<<<<< to do
-#footer-container #audio-system .system-bottom .time-progress-bar .progress div.point,
-#footer-container #audio-system .system-bottom .volume-progress-bar .progress div.point {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: var(--bg-color1);
-    display: inline-block;
+
+#audio-system .system-bottom .time-progress-bar::after,
+#volume .volume-progress-bar::after {
+    content: '';
     position: absolute;
-    top: -2px;
     left: 25%;
-} 
->>>>>>>>>>>>>>>>>>>>>>>>>> to do */
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: var(--bg-color1);
+    display: none;
+}
+/* to do */
 /* /center footer */
 
 /* right footer */
